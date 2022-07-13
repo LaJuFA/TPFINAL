@@ -1,0 +1,278 @@
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* Tourney */
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Sans-Serif;
+}
+
+.T-L {
+  padding-top: 10px;
+  background-color: #FFFFFF;
+}
+
+.Logo {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  color: red;
+}
+
+.Titulo {
+  font-family: 'Poppins', Sans-Serif;
+  text-decoration: underline;
+}
+
+.Nav {
+  background-color: #333333;
+  padding: 5px;
+  font-family: 'Poppins', Sans-Serif;
+}
+
+.Nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.D1 {
+  font-family: 'Orelega One';
+  padding-top: 64px;
+  padding-left: 64px;
+}
+
+.D1 p {
+  font-family: 'Poppins';
+  font-size: 24px;
+}
+
+.Dis1 {
+  padding-top: 64px;
+  width: 600px;
+}
+
+.BG-Header {
+  height: 100vh;
+  background-color: #615550;
+}
+
+.Text-1 {
+  padding-left: 64px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.Text-1 p {
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
+.Silla1 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  width: 550px;
+}
+
+.S-Diseños {
+  font-family: 'Poppins';
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #f4f5f7;
+}
+
+.S-Diseños .col-12 {
+  padding-bottom: 24px;
+}
+
+.S-Diseños .col-6 h4 {
+  padding-top: 16px;
+}
+
+.S-Mensaje {
+  background-image: url('../IMG/Mensaje.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.S-Mensaje .formulario {
+  color: #ffffff;
+  padding: 25px;
+}
+
+.S-Mensaje .formulario input {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  background-color: #FFFFFF;
+  outline: none;
+  color: #101010;
+}
+
+.Caja-Mensaje {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.S-Mensaje .formulario button {
+  color: #FFFFFF;
+  background-color: #8FBC8F;
+  border: none;
+  padding: 10px 48px;
+  border-radius: 32px;
+}
+
+.S-Reseñas {
+  padding: 96px 96px;
+}
+
+.S-Reseñas h1 {
+  padding-bottom: 48px;
+  text-decoration: underline solid orange 1px;
+}
+
+.S-Reseñas img {
+  width: 380px;
+  height: 348px;
+}
+
+.S-Reseñas button {
+  width: 32px;
+  background-color: black
+}
+
+.Text-C {
+  font-family: 'Poppins';
+}
+
+.Text-C i {
+  color: gray;
+  font-size: 32px;
+}
+
+.S-Info {
+  padding-top: 42px;
+  padding-bottom: 32px;
+  background-color: #0F1521;
+  color: white;
+}
+
+.S-Info h3 {
+  padding-bottom: 8px;
+}
+
+/* Media queries */
+@media screen and (max-width: 1024px) {
+  .Dis1 {
+    width: 400px;
+  }
+
+  .S-Mensaje iframe {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .D1 h1 {
+    font-size: 48px;
+  }
+
+  .D1 p {
+    font-size: 28px;
+  }
+
+  .Dis1 {
+    width: 300px;
+  }
+
+  .Silla1 {
+    width: 300px;
+  }
+
+  .Diseños {
+    text-align: center;
+  }
+
+  .S-Mensaje {
+    text-align: center;
+  }
+
+  .S-Reseñas .Text-C {
+    text-align: center;
+  }
+
+  .S-Reseñas button {
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .DI {
+    flex-direction: column;
+  }
+
+  .D1 {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .D1 h1 {
+    font-size: 32px;
+  }
+
+  .D1 p {
+    font-size: 16px;
+  }
+
+  .Dis1 {
+    padding: 0;
+    width: 65vw;
+  }
+
+  .Sec {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Silla1 {
+    padding: 5px;
+  }
+
+  .Text-1 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .formulario {
+    text-align: center;
+  }
+
+  .S-Reseñas .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .S-Reseñas button {
+    height: 32px;
+  }
+}
