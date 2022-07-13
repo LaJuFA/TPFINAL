@@ -13,6 +13,15 @@ body {
   font-family: 'Open Sans', Sans-Serif;
 }
 
+.BN {
+  border: none;
+  background-color: white;
+}
+
+.BN i {
+  color: brown;
+}
+
 .T-L {
   padding-top: 10px;
   background-color: #FFFFFF;
